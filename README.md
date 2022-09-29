@@ -23,4 +23,5 @@ Slown61 et Moi même
 Conseils d'utilisation:
 --------------
 Ne pas utiliser ca sur des distributions linux qui n'ont pas snapd qui est un paquet qui sert au script d'installation
+
 Utiliser ça en sudo sinon il va falloir mettre votre mot de passe tout le temps
