@@ -11,6 +11,14 @@ then
 echo "Installation de wine"
 sudo aptitude -y install wine
 echo "######################"
+echo "Voulez-vous installer snapd et snap [o/n] ?"
+if [ "$rep" == "o" -o "$rep" == "y" ]
+then
+sudo aptitude -y install snapd snap
+echo "######################"
+echo "Voulez-vous installer Discord,Spotify,Sosumi"
+if [ "$rep" == "o" -o "$rep" == "y" ]
+then
 echo "Installation de Spotify, discord et sosumi"
 sudo snap install spotify discord sosumi
 else
@@ -19,5 +27,3 @@ echo "######################"
 echo "Installation de Spotify, discord et sosumi"
 sudo snap install spotify discord sosumi
 fi
-# installer uniquement wine si vous etes pas sur Zorin OS
-# installer uniquement sosumi si vous avez les paquets snap faites pas ca si vous etes sur debian ou Linux Mint
