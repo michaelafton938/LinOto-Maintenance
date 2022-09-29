@@ -1,7 +1,26 @@
-For the English: littles scripts for maintening linux and installing some programs with apt or snap Pour les Francais: Petits scripts pour la maintenance de linux et l'installation de certains programmes avec apt ou snap
-Les précautions pour le script linux-installer.sh
------------------------------------------------------------------------
-Pour linux-installer
--Ne pas installer wine sur Zorin OS car il y est déjà
--Ne pas installer sosumi faites pas ca si vous etes sur debian ou Linux Mint
--Faire ca en sudo bien-sûr
+LinOto-Maintenance
+------------------
+Q:C'est quoi LinOto-Maintenance
+
+A:LinOto-Maintenance c'est des scripts qui permettent une meilleur installation de certains paquets et une meilleur MàJ de paquets sur Linux
+
+------------------
+
+
+Présentation du Projet:
+----------------------
+
+LinOto-Maintenance c'est un projet qui à été repris du travail d'un de mes amis discord que je felicite fortement
+
+----------------------
+
+Contributeurs:
+--------------
+Slown61 et Moi même
+
+--------------
+
+Conseils d'utilisation:
+--------------
+Ne pas utiliser ca sur des distributions linux qui n'ont pas snapd qui est un paquet qui sert au script d'installation
+Utiliser ça en sudo sinon il va falloir mettre votre mot de passe tout le temps
