@@ -5,14 +5,14 @@ echo ""
 os=`lsb_release -a | grep -i ID`
 echo "Votre systeme d'exploitation est :"
 echo "$os"
-if [ "$os" == "Distributor ID:	ManjaroLinux" -o "$os" == "Distributor ID: Arch" ]
+if [ "$os" == "Distributor ID: ManjaroLinux" -o "$os" == "Distributor ID: Arch" ]
 then
   echo "######################"
   echo "Mise à jour du systeme"
   echo "######################"
 sudo pacman -Syu
 install="sudo pacman -Sy"
-else if [ "$os" == "Distributor ID:	Ubuntu" -o "$os" == "Distributor ID: Debian" ]
+else if [ "$os" == "Distributor ID: Ubuntu" -o "$os" == "Distributor ID: Debian" ]
 then
   echo "######################"
   echo "Mise à jour du systeme"
