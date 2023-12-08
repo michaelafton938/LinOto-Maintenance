@@ -35,7 +35,7 @@ echo "Voulez-vous installer snapd et snap [o/n] ?"
 read rep
 if [ "$rep" == "o" -o "$rep" == "y" ]
 then
-echo "Installationde snap"
+echo "Installation de snap"
 eval "$install snapd snap"
 else
 echo "Snap ne sera pas installer"
